@@ -4,20 +4,20 @@
     </header>
 </template>
 
-<style scoped>   
-    header{
-        text-align: center;
-        color: var(--color-header);
-        background-color: var(--bg-color-header);
-        padding: 1rem;
-    }
+<style scoped>
+header {
+    text-align: center;
+    color: var(--color-header);
+    background-color: var(--bg-color-header);
+    padding: 1rem;
+}
 
-    h1 {
-        margin: auto;
-    }
+h1 {
+    margin: auto;
+}
 
-    a {
-        text-decoration: none;
-        color: var(--color-header);
-    }
+a {
+    text-decoration: none;
+    color: var(--color-header);
+}
 </style>

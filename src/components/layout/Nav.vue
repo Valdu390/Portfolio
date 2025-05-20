@@ -8,15 +8,15 @@
 </template>
 
 <style scoped>
-    nav {
-        display: flex;
-        justify-content: space-evenly;
-    }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    a {
-        color: var(--color-nav);
-        text-decoration: none;
-        padding: 10px;
-        margin: 5px;
-    }
+a {
+    color: var(--color-nav);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
 </style>
