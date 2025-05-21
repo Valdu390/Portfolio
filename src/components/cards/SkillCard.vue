@@ -1,0 +1,44 @@
+<script setup>
+import { projects as projectsList } from "@/data/projects.js";
+import { experiences as experiencesList } from "@/data/experiences.js";
+import { useOverlay } from "@/composables/useOverlay";
+import { useIdToTitle } from "@/composables/useIdToTitle";
+
+const { isOverlay, showOverlay, hideOverlay } = useOverlay();
+const { idToTitleExperiences, idToTitleProjects, _ } = useIdToTitle();
+
+const props = defineProps({
+    id: String,
+    title: String,
+    experiences: Array,
+    projects: Array
+})
+</script>
+
+<template>
+    <button :id="id" @click="showOverlay"> {{ title }}</button>
+
+    <div v-if="isOverlay" class="back-overlay">
+        <div class="overlay">
+            <h3>{{ title }}</h3>
+            <div>
+                <h4>Projets</h4>
+                <ul>
+                    <li v-for="project in projectsList.filter(p => projects.includes(p.id))" :key="project.id">
+                        <a :href="'#' + project.id"> {{ idToTitleProjects(project.id) }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Expériences</h4>
+                <ul>
+                    <li v-for="experience in experiencesList.filter(e => experiences.includes(e.id))"
+                        :key="experience.id">
+                        <a :href="'#' + experience.id"> {{ idToTitleExperiences(experience.id) }}</a>
+                    </li>
+                </ul>
+            </div>
+            <button @click.prevent="hideOverlay">Fermer</button>
+        </div>
+    </div>
+</template>

@@ -1,9 +1,9 @@
 <template>
     <nav>
-        <a href="index.html#AboutMe">À propos de moi</a>
-        <a href="index.html#Projects">Projets réalisés</a>
-        <a href="index.html#Skills">Compétence</a>
-        <a href="index.html#Experiences">Expériences professionnalisantes</a>
+        <a href="#AboutMe">À propos de moi</a>
+        <a href="#Projects">Projets réalisés</a>
+        <a href="#Skills">Compétence</a>
+        <a href="#Experiences">Expériences professionnalisantes</a>
     </nav>
 </template>
 

@@ -1,10 +1,10 @@
 :root {
     /* Colors for layout */
-    --main-bg-color : white;
+    --main-bg-color: white;
 
     /* Color for header */
-    --bg-color-header : orange;
-    --color-header : white;
+    --bg-color-header: orange;
+    --color-header: white;
 
     /* Color for nav */
     --color-nav: black;
@@ -14,4 +14,10 @@ body {
     background-color: var(--main-bg-color);
 
     margin: auto;
+}
+
+body.no-scroll {
+    overflow: hidden !important;
+    position: relative !important;
+    height: 100vh;
 }

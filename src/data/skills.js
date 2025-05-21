@@ -2,7 +2,7 @@
 //                  Les Catégories de compétences
 // #############################################################
 export const skillsCategory = [
-    "Logiciel", "Langage informatique", "Informatique", "Soft skills"
+    "Logiciel", "Langages informatiques", "Informatique", "Soft skills"
 ]
 
 // #############################################################

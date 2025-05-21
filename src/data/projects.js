@@ -25,11 +25,11 @@ export const projects = [
         images: [],
         skills: [
             // Logiciels
-            "visual-studio-code","git",
+            "visual-studio-code", "git",
             // Langages
             "python",
             // Informatique
-            "realisation-application","redaction-documentation","evolution-application","optimisation-programme","construction-algorithme","qualite-developpement",
+            "realisation-application", "redaction-documentation", "evolution-application", "optimisation-programme", "construction-algorithme", "qualite-developpement",
             // Soft skills
             "analyse"
         ],
@@ -57,7 +57,7 @@ export const projects = [
         ],
         skills: [
             // Logiciels
-            "microsoft-azure","power-bi","visual-studio-code",
+            "microsoft-azure", "power-bi", "visual-studio-code",
             // Informatique
             "construction-algorithme", "exploitation-donnees", "realisation-visuel",
             // Soft skills
@@ -83,9 +83,9 @@ export const projects = [
             // Langages
             "html", "css", "javascript", "php", "mysql",
             // Informatique
-            "realisation-application","optimisation-programme","construction-algorithme","qualite-developpement","conception-bdd","mise-en-place-bdd",
+            "realisation-application", "optimisation-programme", "construction-algorithme", "qualite-developpement", "conception-bdd", "mise-en-place-bdd",
             // Soft skills
-            "travail-equipe","gestion-projet","communication-interne",
+            "travail-equipe", "gestion-projet", "communication-interne",
         ],
         experience: "iut-informatique",
     },
@@ -127,9 +127,9 @@ export const projects = [
             // Langage
             "java",
             // Informatique
-            "realisation-application","optimisation-programme","construction-algorithme","qualite-developpement",
+            "realisation-application", "optimisation-programme", "construction-algorithme", "qualite-developpement",
             // Soft skills
-            "travail-equipe","gestion-projet","communication-interne", "analyse"
+            "travail-equipe", "gestion-projet", "communication-interne", "analyse"
         ],
         experience: "iut-informatique",
     },
@@ -151,9 +151,9 @@ export const projects = [
             // Langage
             "c",
             // Informatique
-            "realisation-application","redaction-documentation", "optimisation-programme","construction-algorithme","qualite-developpement",
+            "realisation-application", "redaction-documentation", "optimisation-programme", "construction-algorithme", "qualite-developpement",
             // Soft skills
-            "travail-equipe","communication-interne"
+            "travail-equipe", "communication-interne"
         ],
         experience: "iut-informatique",
     },
@@ -177,7 +177,7 @@ export const projects = [
             // Informatique
             "realisation-application", "qualite-developpement",
             // Soft skills
-            "travail-equipe","analyse"
+            "travail-equipe", "analyse"
         ],
         experience: "iut-informatique",
     },
@@ -197,9 +197,9 @@ export const projects = [
             // Langage
             "pl-sql",
             // Informatique
-            "conception-bdd","mise-en-place-bdd",
+            "conception-bdd", "mise-en-place-bdd",
             // Soft skills
-            "travail-equipe","analyse",
+            "travail-equipe", "analyse",
         ],
         experience: "iut-informatique",
     },
