@@ -7,8 +7,6 @@
 <style scoped>
 header {
     text-align: center;
-    color: var(--color-header);
-    background-color: var(--bg-color-header);
     padding: 1rem;
 }
 
@@ -18,6 +16,5 @@ h1 {
 
 a {
     text-decoration: none;
-    color: var(--color-header);
 }
 </style>

@@ -18,15 +18,43 @@ function selectCategory(skillCat) {
 <template>
     <section id="Skills">
         <h2>Compétences</h2>
-        <div class="category-list">
+        <div class="skill-category-list">
             <a v-for="skillCat in skillsCategory" :key="skillCat" href="#" @click.prevent="selectCategory(skillCat)"
-                :class="{ active: skillCat === cat }">
+                :class="skillCat.split(' ', 1)">
                 {{ skillCat }}
             </a>
         </div>
         <div class="skills-list">
             <SkillCard v-for="skill in filteredSkills" :key="skill.id" :id="skill.id" :title="skill.title"
-                :experiences="skill.experiences" :projects="skill.projects" />
+                :experiences="skill.experiences" :projects="skill.projects" :category="skill.category" />
         </div>
     </section>
 </template>
+
+<style scoped>
+.skill-category-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skill-category-list a {
+    border-radius: 20px;
+    width: 20vw;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.skill-category-list a:hover {
+    box-shadow: 5px 5px 5px;
+}
+</style>

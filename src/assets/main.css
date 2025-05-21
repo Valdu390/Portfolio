@@ -1,23 +1,37 @@
+@import url("colors.css");
+@import url("shape.css");
+
 :root {
-    /* Colors for layout */
+    /* Main colors for layout */
     --main-bg-color: white;
+    --main-color: black;
+    --main-link-color: #EF3E36;
 
-    /* Color for header */
-    --bg-color-header: orange;
-    --color-header: white;
+    /* Colors for more varieties */
+    --alt-bg-color: #9400D3;
+    --alt-color: white;
+    --alt-link-color: white;
 
-    /* Color for nav */
-    --color-nav: black;
+    /* Colors for nav */
+    --nav-bg-color: #DFB1F2;
+    --nav-color: black;
+
+    /* Color for skills */
+    --logicial-color-title: #71B340;
+    --logicial-color-element: #8AD94E;
+    --langage-color-title: #F86624;
+    --langage-color-element: #F79263;
+    --computer-color-title: #6290C3;
+    --computer-color-element: #4E8FD9;
+    --soft-color-title: #E8E1EF;
+    --soft-color-element: #EFEDF0;
+    --default-skills-color: #000000;
+
+    /* Color for list skills */
 }
 
 body {
     background-color: var(--main-bg-color);
-
+    color: var(--main-color);
     margin: auto;
-}
-
-body.no-scroll {
-    overflow: hidden !important;
-    position: relative !important;
-    height: 100vh;
 }

@@ -1,0 +1,68 @@
+/*
+    Gestion des extrémités
+*/
+header,
+header a,
+footer,
+footer a {
+    color: var(--alt-color);
+    background-color: var(--alt-bg-color);
+}
+
+/*
+    Gestion du nav
+*/
+nav a {
+    color: var(--nav-color);
+    background-color: var(--nav-bg-color);
+}
+
+/*
+    Gestion des skills
+*/
+.Logiciel {
+    background-color: var(--logicial-color-title);
+    color: var(--default-skills-color);
+}
+
+.Logiciel-element {
+    background-color: var(--logicial-color-element);
+    color: var(--default-skills-color);
+}
+
+.Langages {
+    background-color: var(--langage-color-title);
+    color: var(--default-skills-color);
+}
+
+.Langages-element {
+    background-color: var(--langage-color-element);
+    color: var(--default-skills-color);
+}
+
+.Informatique {
+    background-color: var(--computer-color-title);
+    color: var(--default-skills-color);
+}
+
+.Informatique-element {
+    background-color: var(--computer-color-element);
+    color: var(--default-skills-color);
+}
+
+.Soft {
+    background-color: var(--soft-color-title);
+    color: var(--default-skills-color);
+}
+
+.Soft-element {
+    background-color: var(--soft-color-element);
+    color: var(--default-skills-color);
+}
+
+/*
+    Gestion des liens
+*/
+a {
+    color: var(--main-link-color);
+}

@@ -30,7 +30,9 @@ import Experiences from "@/components/main/Experiences.vue";
 
 <style scoped>
 main {
+    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 2rem;
+    margin-bottom: 1rem;
 }
 </style>

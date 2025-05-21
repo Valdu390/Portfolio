@@ -74,7 +74,9 @@ function getExperienceData(id) {
         <div>
             <h4>Compétences développées</h4>
             <li v-for="(skill, skillIndex) in skills" :key="skillIndex">
-                <a href="#Skills">{{ getSkillData(skill).title }} ({{ getSkillData(skill).category }})</a>
+                <a href="#Skills" :class="getSkillData(skill).category">{{ getSkillData(skill).title
+                }} ({{
+                        getSkillData(skill).category }})</a>
             </li>
         </div>
     </section>

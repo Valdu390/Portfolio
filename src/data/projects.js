@@ -18,7 +18,8 @@ export const projects = [
         links: [
             {
                 title: "Dépôt git : registration of algebraic varieties",
-                link: "https://github.com/flgoyens/variety-registration"
+                link: "https://github.com/flgoyens/variety-registration",
+                type: "github"
             }
             // [MANQUE] Lien vers le dépôt pour récupérer le quantile + documentation overleaf
         ],
