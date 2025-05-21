@@ -50,7 +50,8 @@ export const projects = [
         links: [
             {
                 title: "API utilisé pour ce projet",
-                link: "https://api-lannuaire.service-public.fr/explore/dataset/api-lannuaire-administration-locale-competence-geographique/api/"
+                link: "https://api-lannuaire.service-public.fr/explore/dataset/api-lannuaire-administration-locale-competence-geographique/api/",
+                type: "None",
             }
         ],
         images: [
@@ -73,10 +74,22 @@ export const projects = [
         date: "Année 2024/2025 - 2ème année",
         description: "Simulnation représente un grand travail d'équipe sur l'ensemble du premier semestre de seconde année, il s'agit de réaliser un cahier des charges sur un projet de notre choix pour ensuite le développer. Dans le cas de notre groupe, nous avons fait le choix de réaliser un jeu de stratégie et gestion textuelle avec des technologies web. En somme, il s'agissait de permettre à un joueur de prendre la direction d'une petite nation dont il pourrait gérer les affaires économiques et militaires. Mais aussi échanger avec les autres nations que cela soit des messages, des ressources ou des alliances. Cette SAé a été une grande occasion pour améliorer mes compétences de communication interne, de travail d'équipe et de gestion d'équipe, mais aussi pour appliquer nos compétences acquises en html, CSS, JavaScript et Php.",
         links: [
+            {
+                title: "Google doc : Cahier des charges réalisé pour le projet",
+                link: "https://docs.google.com/document/d/1jBvu9MOcYVsRzw48T5G7pPzR-7-kGFJhbx1OFLuUmiE/edit?usp=sharing",
+                type: "gdoc"
+            },
             // [MANQUE] Lien git vers le projet
         ],
         images: [
-            // [MANQUE] d'images issus du projet
+            {
+                title: "Page d'accueil du site",
+                link: "images/projects/simulnation-2.png"
+            },
+            {
+                title: "Page de recrutement de l'armée",
+                link: "images/projects/simulnation-1.png"
+            },
         ],
         skills: [
             // Logiciels
@@ -117,7 +130,12 @@ export const projects = [
         date: "Année 2023/2024 - 1er année",
         description: "L'AVC company (Alex, Valentin, Cédric company) est un logiciel de gestion et de visualisation de vols originaire et destinataire de France métropolitaine. L'objectif de cette SAé était de réaliser une application java permettant de visualiser des vols et de pouvoir les gérer via des règles de gestion définis au préalable. Ce projet a été l'occasion d'apprendre à développer notre première application java, à lire un cahier des charges et à planifier à l'avance la répartition des tâches et du temps.",
         links: [
-            // [MANQUE] Lien vers le git
+            {
+                title: "Google doc : Cahier des charges réalisé pour le projet",
+                link: "https://docs.google.com/document/d/1agPggf1m6Ua6D8L3LewGwOyvMr8xymYlgy3bYdovgdY/edit?usp=sharing",
+                type: "gdoc"
+            },
+            // [MANQUE] Git vers le projet
         ],
         images: [
             // [MANQUE] Images de l'application
@@ -188,9 +206,18 @@ export const projects = [
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
         description: "Durant ce projet, nous devions modéliser, concevoir et remplir une base de données. Nous avons pour cela des témoignages du fonctionnement interne, des présentations du fonctionnement non informatisé via les formulaires qui utilisait... Ainsi, j'ai pu développer mes capacités d'analyse de besoins et celle d'utilisation de Power AMC pour la partie modélisation et de SQL Developper pour la partie réalisation.",
-        links: [],
+        links: [
+            {
+                title: "Google doc : Document présentant le travail",
+                link: "https://docs.google.com/document/d/1gbUBGw_4aR5DO5i7P-JxXSzZEuUqAXh8AKzJFUxV1DQ/edit?usp=sharing",
+                type: "gdoc"
+            },
+        ],
         images: [
-            // [MANQUE] Images de la modélisation
+            {
+                title: "MCD de la base de donnée",
+                link: "images/projects/conception-realisation-bdd-centre-formation-medicale-1.png"
+            }
         ],
         skills: [
             // Logiciels

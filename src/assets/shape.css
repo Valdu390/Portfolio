@@ -8,6 +8,14 @@ li {
     list-style: none;
 }
 
+/* For project-card */
+.project-card {
+    width: 30%;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+
 /* For skills list*/
 .skills-list {
     display: flex;
