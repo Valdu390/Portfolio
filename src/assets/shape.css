@@ -8,6 +8,19 @@ li {
     list-style: none;
 }
 
+/* For skills list*/
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.skills-list a {
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /* For overlay */
 .back-overlay {
     position: fixed;

@@ -55,9 +55,10 @@ function getSkillData(id) {
             </div>
             <div>
                 <h4>Compétences acquises</h4>
-                <ul>
+                <ul class="skills-list">
                     <li v-for="skill in skillsList.filter(s => skills.includes(s.id))">
-                        <a href="#Skills"> {{ idToTitleProjects(skill.id) }} ({{ getSkillData(skill.id).category }})</a>
+                        <a href="#Skills" :class="getSkillData(skill.id).category.split(' ', 1) + '-element'"> {{
+                            idToTitleProjects(skill.id) }}</a>
                     </li>
                 </ul>
             </div>
