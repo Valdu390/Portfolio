@@ -143,6 +143,10 @@ export const projects = [
             // [MANQUE] Git vers le projet
         ],
         images: [
+            {
+                title: "Schéma représentant les tâches à réalisés",
+                link: "images/projects/avc-company-1.png"
+            },
             // [MANQUE] Images de l'application
         ],
         skills: [
