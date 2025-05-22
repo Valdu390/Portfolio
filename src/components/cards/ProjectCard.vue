@@ -1,12 +1,9 @@
 <script setup>
-import { skillsCategory, skills as skillsList } from '@/data/skills.js';
+import { skills as skillsList } from '@/data/skills.js';
 import { experiences } from '@/data/experiences.js';
-import { ref } from 'vue';
 import { useOverlay } from "@/composables/useOverlay";
 import { useIdToTitle } from "@/composables/useIdToTitle";
-
-const { isOverlay, showOverlay, hideOverlay } = useOverlay();
-const { idToTitleExperiences, _, idToTitleSkills } = useIdToTitle();
+import { useSlide } from "@/composables/useSlide";
 
 const props = defineProps({
     id: String,
@@ -21,22 +18,12 @@ const props = defineProps({
     images: Array,
 });
 
-const currentIndex = ref(0);
-
-function prev() {
-    if (currentIndex.value > 0) currentIndex.value--;
-}
-
-function next() {
-    if (currentIndex.value < props.images.length - 1) currentIndex.value++;
-}
+const { isOverlay, showOverlay, hideOverlay } = useOverlay();
+const { idToTitleExperiences, _, idToTitleSkills } = useIdToTitle();
+const { index, previous, next } = useSlide();;
 
 function getSkillData(id) {
     return skillsList.find(i => i.id == id)
-}
-
-function getExperienceData(id) {
-    return experiences.find(i => i.id == id)
 }
 </script>
 
@@ -93,7 +80,12 @@ function getExperienceData(id) {
             <div v-if="images.length">
                 <h4>Images</h4>
                 <div class="carouselle-image">
-                    <img :src="images[0].link" alt="Image" />
+                    <a v-if="images.length > 1" href="#" @click.prevent="previous(images)">Précédent</a>
+                    <figure>
+                        <figcaption> <em>{{ images[index].title }}</em></figcaption>
+                        <img :src="images[index].link" alt="Image" />
+                    </figure>
+                    <a v-if="images.length > 1" href="#" @click.prevent="next(images)">Suivant</a>
                 </div>
             </div>
         </div>
@@ -111,6 +103,30 @@ export default {
 </script>
 
 <style scoped>
+.carouselle-image {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carouselle-image figure {
+    width: 50%;
+    height: auto;
+    margin: 0;
+}
+
+figcaption {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.carouselle-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
 h3 {
     text-align: center;
 }

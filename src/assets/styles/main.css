@@ -36,3 +36,8 @@ body {
     color: var(--main-color);
     margin: auto;
 }
+
+* {
+    scroll-margin-top: 80px;
+    /* ou la hauteur souhaitée */
+}

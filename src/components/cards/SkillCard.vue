@@ -31,7 +31,7 @@ const props = defineProps({
                 <h4>Projets</h4>
                 <ul>
                     <li v-for="project in projectsList.filter(p => projects.includes(p.id))" :key="project.id">
-                        <a :href="'#' + project.id"> {{ idToTitleProjects(project.id) }}</a>
+                        <a :href="'#' + project.id" @click="hideOverlay"> {{ idToTitleProjects(project.id) }}</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@ const props = defineProps({
                 <ul>
                     <li v-for="experience in experiencesList.filter(e => experiences.includes(e.id))"
                         :key="experience.id">
-                        <a :href="'#' + experience.id"> {{
+                        <a :href="'#' + experience.id" @click="hideOverlay"> {{
                             idToTitleExperiences(experience.id) }}</a>
                     </li>
                 </ul>
