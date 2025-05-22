@@ -2,6 +2,11 @@
 import { skillsCategory, skills as skillsList } from '@/data/skills.js';
 import { experiences } from '@/data/experiences.js';
 import { ref } from 'vue';
+import { useOverlay } from "@/composables/useOverlay";
+import { useIdToTitle } from "@/composables/useIdToTitle";
+
+const { isOverlay, showOverlay, hideOverlay } = useOverlay();
+const { idToTitleExperiences, _, idToTitleSkills } = useIdToTitle();
 
 const props = defineProps({
     id: String,
@@ -42,7 +47,7 @@ function getExperienceData(id) {
         </div>
         <h3>{{ title }}</h3>
         <div class="center">
-            <h4>Cadre : <a :href="'#' + experience"> {{ getExperienceData(experience).title }} </a></h4>
+            <h4>Cadre : <a :href="'#' + experience"> {{ idToTitleExperiences(experience) }} </a></h4>
             <h4>Temporalité : {{ date }}</h4>
             <h4>Contexte : {{ context }}</h4>
             <h4>Résumé</h4>
@@ -50,28 +55,49 @@ function getExperienceData(id) {
             <a href="#" @click.prevent="showOverlay">Voir plus</a>
         </div>
     </div>
-    <!-- Project card -->
-    <section v-if="false" class="project-card">
-        <div>
-            <h4>Liens supplémentaire</h4>
-            <ul>
-                <li v-if="links.length == 0">Aucun lien supplémentaire</li>
-                <li v-for="(link, index) in links" :key="index">
-                    <a :href="link.link" target=" _blank" rel="noopener noreferrer">
-                        {{ link.title }}
-                    </a>
-                </li>
-            </ul>
+
+    <div v-if="isOverlay" class="back-overlay">
+        <div class="overlay">
+            <div class="top">
+                <h3>{{ title }}</h3>
+                <a href="" @click.prevent="hideOverlay">Fermer</a>
+            </div>
+            <div>
+                <h4>Cadre : <a :href="'#' + experience" @click="hideOverlay"> {{ idToTitleExperiences(experience) }}
+                    </a></h4>
+                <h4>Temporalité : {{ date }}</h4>
+                <h4>Contexte : {{ context }}</h4>
+                <h4>Description</h4>
+                <p>{{ description }}</p>
+            </div>
+
+            <div>
+                <h4>Liens supplémentaire</h4>
+                <ul>
+                    <li v-if="links.length == 0">Aucun lien supplémentaire</li>
+                    <li v-for="(link, index) in links" :key="index">
+                        <a :href="link.link" target=" _blank" rel="noopener noreferrer">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                </ul>
+                <h4>Compétences acquises</h4>
+                <ul class="skills-list">
+                    <li v-for="skill in skillsList.filter(s => skills.includes(s.id))">
+                        <a href="#Skills" :class="getSkillData(skill.id).category.split(' ', 1) + '-element'"
+                            @click="hideOverlay"> {{
+                                idToTitleSkills(skill.id) }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div v-if="images.length">
+                <h4>Images</h4>
+                <div class="carouselle-image">
+                    <img :src="images[0].link" alt="Image" />
+                </div>
+            </div>
         </div>
-        <div>
-            <h4>Compétences développées</h4>
-            <li v-for="(skill, skillIndex) in skills" :key="skillIndex">
-                <a href="#Skills" :class="getSkillData(skill).category">{{ getSkillData(skill).title
-                    }} ({{
-                        getSkillData(skill).category }})</a>
-            </li>
-        </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -93,14 +119,14 @@ h3 {
     margin: 10px;
 }
 
-.top {
+.project-card .top {
     width: 100%;
     height: 250px;
     overflow: hidden;
     border-radius: 26px;
 }
 
-.top img {
+.project-card .top img {
     width: 100%;
     height: auto;
     object-fit: cover;
