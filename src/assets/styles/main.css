@@ -1,0 +1,38 @@
+@import url("colors.css");
+@import url("shape.css");
+@import url("font.css");
+
+:root {
+    /* Main colors for layout */
+    --main-bg-color: #DCD7D5;
+    --main-color: black;
+    --main-link-color: #4B3F6E;
+
+    /* Colors for more varieties */
+    --alt-bg-color: #6C5F8D;
+    --alt-color: white;
+    --alt-link-color: white;
+
+    /* Colors for nav */
+    --nav-bg-color: #9C8CB9;
+    --nav-color: black;
+
+    /* Color for skills */
+    --logicial-color-title: var(--nav-bg-color);
+    --logicial-color-element: #BA96C1;
+    --langage-color-title: var(--nav-bg-color);
+    --langage-color-element: #BA96C1;
+    --computer-color-title: var(--nav-bg-color);
+    --computer-color-element: #BA96C1;
+    --soft-color-title: var(--nav-bg-color);
+    --soft-color-element: #BA96C1;
+    --default-skills-color: #000000;
+
+    /* Color for list skills */
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    margin: auto;
+}

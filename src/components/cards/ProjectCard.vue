@@ -9,6 +9,7 @@ const props = defineProps({
     experience: String,
     context: String,
     date: String,
+    resume: String,
     description: String,
     links: Array,
     skills: Array,
@@ -44,10 +45,8 @@ function getExperienceData(id) {
             <h4>Cadre : <a :href="'#' + experience"> {{ getExperienceData(experience).title }} </a></h4>
             <h4>Temporalité : {{ date }}</h4>
             <h4>Contexte : {{ context }}</h4>
-            <h4>Description</h4>
-            <p>
-                {{ description.length > 300 ? description.slice(0, 300) + '...' : description }}
-            </p>
+            <h4>Résumé</h4>
+            <p>{{ resume }}</p>
             <a href="#" @click.prevent="showOverlay">Voir plus</a>
         </div>
     </div>
@@ -86,6 +85,10 @@ export default {
 </script>
 
 <style scoped>
+h3 {
+    text-align: center;
+}
+
 .center {
     margin: 10px;
 }

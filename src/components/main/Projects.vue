@@ -12,7 +12,7 @@ import { projects } from '@/data/projects.js';
             <ProjectCard v-for="project in projects" :id="project.id" :title="project.title"
                 :experience="project.experience" :date="project.date" :context="project.context"
                 :description="project.description" :links="project.links" :skills="project.skills"
-                :images="project.images" />
+                :images="project.images" :resume="project.resume" />
         </section>
     </section>
 </template>
