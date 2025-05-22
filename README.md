@@ -1,29 +1,5 @@
-# Vue-portfolio
+# Ceci n'est pas un portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Ceci n'est pas mon portfolio et il ne présente ni mes compétences, ni mes projets, ni mes expériences professionnalisantes.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Si vous êtes tout de même intéressez de le voir, ne cliquez pas sur ce [lien](https://valbesnard.github.io/Portfolio/)
