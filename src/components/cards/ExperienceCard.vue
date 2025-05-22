@@ -24,7 +24,7 @@ function getSkillData(id) {
 </script>
 
 <template>
-    <div :id="id">
+    <div :id="id" class="experience-card">
         <h3>{{ title }}</h3>
         <h4>Contexte : {{ context }}</h4>
         <h4>Temporalité : {{ date }}</h4>
@@ -50,7 +50,7 @@ function getSkillData(id) {
                 <ul>
                     <li v-for="project in projectsList.filter(p => projects.includes(p.id))">
                         <a :href="'#' + project.id" @click="hideOverlay"> {{ idToTitleProjects(project.id)
-                        }}</a>
+                            }}</a>
                     </li>
                 </ul>
             </div>

@@ -20,6 +20,21 @@ li {
     box-shadow: 5px 5px 10px;
 }
 
+/* For experience-card */
+.experiences-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.experience-card {
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px;
+}
+
 /* For skills list*/
 .skills-list {
     display: flex;
