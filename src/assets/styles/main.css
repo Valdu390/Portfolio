@@ -1,6 +1,7 @@
 @import url("colors.css");
 @import url("shape.css");
 @import url("font.css");
+@import url("icons.css");
 
 :root {
     /* Main colors for layout */

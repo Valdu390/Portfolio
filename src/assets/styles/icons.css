@@ -1,0 +1,24 @@
+.linkedin {
+    background-image: url('/images/icons/linkedin.svg');
+}
+
+.github {
+    background-image: url('/images/icons/github.png');
+}
+
+.gmail {
+    background-image: url('/images/icons/gmail.svg');
+}
+
+.pdf {
+    background-image: url('/images/icons/pdf.svg');
+}
+
+.icons {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2em;
+    padding-left: 2.5em;
+    line-height: 2.5em;
+}

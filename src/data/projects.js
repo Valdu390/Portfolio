@@ -18,7 +18,7 @@ export const projects = [
         description: "Durant ce travail, j'ai eu l'occasion de reprendre un projet git nommé registration of algebraic varieties pour le mettre à jour et mettre en place les éléments nécessaires pour évaluer la conformité des résultats fournis. Dans cette situation, j'ai eu à réaliser des algorithmes et à les optimiser pour permettre de réaliser les calcules de quantiles dans un temps suffisamment court avec un échantillon suffisamment large, par la même occasion, j'y ai réalisé une documentation.",
         links: [
             {
-                title: "Dépôt git : registration of algebraic varieties",
+                title: "Registration of algebraic varieties",
                 link: "https://github.com/flgoyens/variety-registration",
                 type: "github"
             }
@@ -78,9 +78,9 @@ export const projects = [
         description: "Simulnation représente un grand travail d'équipe sur l'ensemble du premier semestre de seconde année, il s'agit de réaliser un cahier des charges sur un projet de notre choix pour ensuite le développer. Dans le cas de notre groupe, nous avons fait le choix de réaliser un jeu de stratégie et gestion textuelle avec des technologies web. En somme, il s'agissait de permettre à un joueur de prendre la direction d'une petite nation dont il pourrait gérer les affaires économiques et militaires. Mais aussi échanger avec les autres nations que cela soit des messages, des ressources ou des alliances. Cette SAé a été une grande occasion pour améliorer mes compétences de communication interne, de travail d'équipe et de gestion d'équipe, mais aussi pour appliquer nos compétences acquises en html, CSS, JavaScript et Php.",
         links: [
             {
-                title: "Google doc : Cahier des charges réalisé pour le projet",
-                link: "https://docs.google.com/document/d/1jBvu9MOcYVsRzw48T5G7pPzR-7-kGFJhbx1OFLuUmiE/edit?usp=sharing",
-                type: "gdoc"
+                title: "Cahier des charges réalisé pour le projet",
+                link: "https://drive.google.com/file/d/1cLvHODdwdkoWWva8NvcTmpnd8OOSbMUl/view?usp=sharing",
+                type: "pdf"
             },
             // [MANQUE] Lien git vers le projet
         ],
@@ -136,9 +136,9 @@ export const projects = [
         description: "L'AVC company (Alex, Valentin, Cédric company) est un logiciel de gestion et de visualisation de vols originaire et destinataire de France métropolitaine. L'objectif de cette SAé était de réaliser une application java permettant de visualiser des vols et de pouvoir les gérer via des règles de gestion définis au préalable. Ce projet a été l'occasion d'apprendre à développer notre première application java, à lire un cahier des charges et à planifier à l'avance la répartition des tâches et du temps.",
         links: [
             {
-                title: "Google doc : Cahier des charges réalisé pour le projet",
-                link: "https://docs.google.com/document/d/1agPggf1m6Ua6D8L3LewGwOyvMr8xymYlgy3bYdovgdY/edit?usp=sharing",
-                type: "gdoc"
+                title: "Cahier des charges réalisé pour le projet",
+                link: "https://drive.google.com/file/d/1Qi1hv0PVQg01ORu1sFs7SkXdyDJ6QMsf/view?usp=sharing",
+                type: "pdf"
             },
             // [MANQUE] Git vers le projet
         ],
@@ -214,13 +214,7 @@ export const projects = [
         date: "Année 2023/2024 - 1er année",
         resume: "Conception et réalisation d’une base de données pour un centre de formation médicale",
         description: "Durant ce projet, nous devions modéliser, concevoir et remplir une base de données. Nous avons pour cela des témoignages du fonctionnement interne, des présentations du fonctionnement non informatisé via les formulaires qui utilisait... Ainsi, j'ai pu développer mes capacités d'analyse de besoins et celle d'utilisation de Power AMC pour la partie modélisation et de SQL Developper pour la partie réalisation.",
-        links: [
-            {
-                title: "Google doc : Document présentant le travail",
-                link: "https://docs.google.com/document/d/1gbUBGw_4aR5DO5i7P-JxXSzZEuUqAXh8AKzJFUxV1DQ/edit?usp=sharing",
-                type: "gdoc"
-            },
-        ],
+        links: [],
         images: [
             {
                 title: "MCD de la base de donnée",

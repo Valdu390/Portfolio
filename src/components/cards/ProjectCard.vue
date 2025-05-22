@@ -63,7 +63,7 @@ function getSkillData(id) {
                 <ul>
                     <li v-if="links.length == 0">Aucun lien supplémentaire</li>
                     <li v-for="(link, index) in links" :key="index">
-                        <a :href="link.link" target=" _blank" rel="noopener noreferrer">
+                        <a :href="link.link" target=" _blank" rel="noopener noreferrer" :class="link.type + ' icons'">
                             {{ link.title }}
                         </a>
                     </li>
