@@ -38,6 +38,10 @@ body {
     margin: auto;
 }
 
+p {
+    text-align: justify;
+}
+
 * {
     scroll-margin-top: 80px;
     /* ou la hauteur souhaitée */

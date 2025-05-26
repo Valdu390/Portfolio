@@ -14,8 +14,8 @@ export const projects = [
         title: "Application de prédiction conforme",
         context: "Travail de stage",
         date: "Avril - Mai 2025",
-        resume: "Travaill d'application de prédiction conforme sur de la registration of algebraic varieties.",
-        description: "Durant ce travail, j'ai eu l'occasion de reprendre un projet git nommé registration of algebraic varieties pour le mettre à jour et mettre en place les éléments nécessaires pour évaluer la conformité des résultats fournis. Dans cette situation, j'ai eu à réaliser des algorithmes et à les optimiser pour permettre de réaliser les calcules de quantiles dans un temps suffisamment court avec un échantillon suffisamment large, par la même occasion, j'y ai réalisé une documentation.",
+        resume: "Travail d'application de la prédiction conforme sur la registration of algebraic varieties.",
+        description: "Dans le cadre de ce projet, j'ai repris un dépôt Git existant intitulé registration of algebraic varieties afin de le mettre à jour et d’y intégrer les éléments nécessaires à l’évaluation de la conformité des résultats produits. J’ai conçu et optimisé des algorithmes permettant le calcul efficace des quantiles sur des échantillons de grande taille. Ce travail a également donné lieu à la rédaction d’une documentation technique.",
         links: [
             {
                 title: "Registration of algebraic varieties",
@@ -48,12 +48,12 @@ export const projects = [
         context: "Projet de cours d'introduction au décisionnelle",
         date: "Année 2024/2025 - 2ème année",
         resume: "Extraction et exploitation de l'annuaire des administrations françaises avec Microsoft Azure et Power BI.",
-        description: "Ce projet consistait à nous apprendre à utiliser Microsoft Azure, notamment dans la collecte de données et leur stockage à partir d'API. Dans ce contexte, j'ai récupéré l'ensemble des bâtiments administratif français grâce à une fonction Azure en C#, les ais stockés, nettoyés puis exploiter dans une courte analyse des résultats grâce à Power BI.",
+        description: "Ce projet avait pour objectif de nous familiariser avec l’utilisation de Microsoft Azure, notamment pour la collecte et le stockage de données via des API. Dans ce cadre, j’ai récupéré l’ensemble des bâtiments administratifs français à l’aide d’une fonction Azure écrite en C#, puis j’ai stocké, nettoyé et exploité ces données dans le cadre d’une brève analyse menée avec Power BI.",
         links: [
             {
-                title: "API utilisé pour ce projet",
+                title: "API",
                 link: "https://api-lannuaire.service-public.fr/explore/dataset/api-lannuaire-administration-locale-competence-geographique/api/",
-                type: "None",
+                type: "none",
             }
         ],
         images: [
@@ -74,11 +74,11 @@ export const projects = [
         title: "Simulnation",
         context: "Projet SAé",
         date: "Année 2024/2025 - 2ème année",
-        resume: "Jeux de gestion et de stratégie d'une nation sur web.",
-        description: "Simulnation représente un grand travail d'équipe sur l'ensemble du premier semestre de seconde année, il s'agit de réaliser un cahier des charges sur un projet de notre choix pour ensuite le développer. Dans le cas de notre groupe, nous avons fait le choix de réaliser un jeu de stratégie et gestion textuelle avec des technologies web. En somme, il s'agissait de permettre à un joueur de prendre la direction d'une petite nation dont il pourrait gérer les affaires économiques et militaires. Mais aussi échanger avec les autres nations que cela soit des messages, des ressources ou des alliances. Cette SAé a été une grande occasion pour améliorer mes compétences de communication interne, de travail d'équipe et de gestion d'équipe, mais aussi pour appliquer nos compétences acquises en html, CSS, JavaScript et Php.",
+        resume: "Jeu de gestion et de stratégie d'une nation.",
+        description: "Simulnation est un projet d’envergure mené en équipe durant tout le premier semestre de la deuxième année. Il s’agissait de rédiger un cahier des charges pour un projet libre, puis de le développer. Notre groupe a choisi de concevoir un jeu de stratégie et de gestion textuel, basé sur des technologies web. Le joueur y incarne le dirigeant d’une petite nation qu’il doit administrer sur les plans économique et militaire, tout en interagissant avec d’autres nations via des messages, des échanges de ressources ou des alliances. Cette SAÉ a été une excellente occasion de renforcer mes compétences en communication interne, en travail et gestion d’équipe, tout en consolidant mes connaissances techniques en HTML, CSS, JavaScript et PHP.",
         links: [
             {
-                title: "Cahier des charges réalisé pour le projet",
+                title: "Cahier des charges",
                 link: "https://drive.google.com/file/d/1cLvHODdwdkoWWva8NvcTmpnd8OOSbMUl/view?usp=sharing",
                 type: "pdf"
             },
@@ -111,8 +111,8 @@ export const projects = [
         title: "Adventure Works Cycles",
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
-        resume: "Réalisation de visuels BI avec Power BI  pour une entreprise d'équipement sportif.",
-        description: "Dans le contexte de cette SAé, nous devions récupérer les bases de données d'une entreprise de vente d'équipements sportifs dans le but de réaliser des visuels d'aide à la décision. Ainsi, nous devions utiliser Power BI pour extraire les données, les nettoyer, les mettre en forme puis de réaliser des visuels accompagné d'une analyse sur la situation de l'entreprise et de conseils.",
+        resume: "Création de visuels BI avec Power BI pour une entreprise d’équipements sportifs.",
+        description: "Dans le cadre de cette SAÉ, nous devions exploiter les bases de données d’une entreprise spécialisée dans la vente d’équipements sportifs afin de produire des visuels facilitant la prise de décision. À l’aide de Power BI, nous avons extrait, nettoyé et mis en forme les données, puis créé des visualisations accompagnées d’une analyse de la situation de l’entreprise et de recommandations stratégiques.",
         links: [],
         images: [
             // [MANQUE] Images des visuels réalisés
@@ -132,11 +132,11 @@ export const projects = [
         title: "AVC company",
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
-        resume: "Logiciel Java permettant la gestion de l'espace aérien français.",
-        description: "L'AVC company (Alex, Valentin, Cédric company) est un logiciel de gestion et de visualisation de vols originaire et destinataire de France métropolitaine. L'objectif de cette SAé était de réaliser une application java permettant de visualiser des vols et de pouvoir les gérer via des règles de gestion définis au préalable. Ce projet a été l'occasion d'apprendre à développer notre première application java, à lire un cahier des charges et à planifier à l'avance la répartition des tâches et du temps.",
+        resume: "Logiciel Java de gestion de l’espace aérien français.",
+        description: "L’AVC Company (Alex, Valentin, Cédric Company) est un logiciel de gestion et de visualisation des vols ayant pour origine et destination la France métropolitaine. Cette SAÉ avait pour objectif de concevoir une application Java capable de visualiser des vols et de les gérer selon des règles de gestion prédéfinies. Ce projet a été l’occasion d’apprendre à développer notre première application en Java, à interpréter un cahier des charges, et à planifier efficacement la répartition des tâches et du temps de travail.",
         links: [
             {
-                title: "Cahier des charges réalisé pour le projet",
+                title: "Cahier des charges",
                 link: "https://drive.google.com/file/d/1Qi1hv0PVQg01ORu1sFs7SkXdyDJ6QMsf/view?usp=sharing",
                 type: "pdf"
             },
@@ -166,8 +166,8 @@ export const projects = [
         title: "Projet GESTION’AIR",
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
-        resume: "Logiciel en C permettant la gestion d'une piste d'aéroport.",
-        description: "L'objectif de cette SAé était de réaliser une application en C qui doit permettre la gestion d'une piste d'aéroport et des éventuelles reprogrammations qui pourrait se produire. Ainsi, nous avons aussi eu à établir les différents algorithmes utilisés et à choisir celui qui se montrait le plus optimisé.",
+        resume: "Logiciel en C de gestion d'une piste d'aéroport.",
+        description: "Cette SAÉ avait pour objectif de développer une application en C permettant la gestion d’une piste d’aéroport, y compris la reprogrammation des vols en cas d’imprévus. Nous avons également dû concevoir plusieurs algorithmes de gestion et sélectionner celui offrant les meilleures performances.",
         links: [
             // [MANQUE] Lien vers le git
         ],
@@ -191,8 +191,8 @@ export const projects = [
         title: "SOFT Move",
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
-        resume: "Site web qui promus les mobilités douce au sein de Lyon 1.",
-        description: "SOFT Move est un petit site web qui cherche à mettre en avant les mobilités douces pour se rendre au sein de l'université. La SAé consistais à réaliser un sondage au près des étudiants sur leurs attentes pour un site traitant des mobilités douces et d'en réaliser ensuite le développement en html et css.",
+        resume: "Site web promouvant les mobilités douces au sein de Lyon 1.",
+        description: "SOFT Move est un site web visant à encourager l’usage des mobilités douces pour se rendre à l’université Lyon 1. Cette SAÉ consistait à concevoir un sondage à destination des étudiants et du personnel afin d’identifier leurs attentes concernant un tel site, puis à développer ce dernier en HTML et CSS.",
         links: [
             // [MANQUE] Lien vers le git
         ],
@@ -216,8 +216,8 @@ export const projects = [
         title: "Thérapeutes",
         context: "Projet SAé",
         date: "Année 2023/2024 - 1er année",
-        resume: "Conception et réalisation d’une base de données pour un centre de formation médicale",
-        description: "Durant ce projet, nous devions modéliser, concevoir et remplir une base de données. Nous avons pour cela des témoignages du fonctionnement interne, des présentations du fonctionnement non informatisé via les formulaires qui utilisait... Ainsi, j'ai pu développer mes capacités d'analyse de besoins et celle d'utilisation de Power AMC pour la partie modélisation et de SQL Developper pour la partie réalisation.",
+        resume: "Conception et réalisation d’une base de données pour un centre de formation médicale.",
+        description: "Dans le cadre de ce projet, nous devions modéliser, concevoir et alimenter une base de données à partir de témoignages sur le fonctionnement interne du centre et de documents papier illustrant le système non informatisé, notamment des formulaires. Ce travail m’a permis de développer mes compétences en analyse des besoins, en modélisation avec Power AMC, ainsi qu’en implémentation avec SQL Developer.",
         links: [],
         images: [
             {
