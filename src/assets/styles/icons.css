@@ -14,6 +14,14 @@
     background-image: url('/images/icons/pdf.svg');
 }
 
+.None {
+    background-image: url('/images/icons/web.png');
+}
+
+.iut-informatique {
+    background-image: url('/images/icons/iut-informatique.png');
+}
+
 .icons {
     display: inline-block;
     background-repeat: no-repeat;

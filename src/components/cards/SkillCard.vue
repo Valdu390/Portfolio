@@ -31,7 +31,10 @@ const props = defineProps({
                 <h4>Projets</h4>
                 <ul>
                     <li v-for="project in projectsList.filter(p => projects.includes(p.id))" :key="project.id">
-                        <a :href="'#' + project.id" @click="hideOverlay"> {{ idToTitleProjects(project.id) }}</a>
+                        <a :href="'#' + project.id" @click="hideOverlay">
+                            {{
+                                idToTitleProjects(project.id)
+                            }}</a>
                     </li>
                 </ul>
             </div>
