@@ -3,9 +3,9 @@
         <div>
             <h2>Contacts</h2>
             <a class="linkedin icons" href="https://www.linkedin.com/in/besnard-valentin" target="_blank">Profil
-                LinkedIn</a>
-            <a class="github icons" href="https://github.com/Valdu390" target="_blank">Page github</a>
-            <a class="gmail icons" href="mailto:besnard.valentin2005@gmail.com">Ecrire un mail</a>
+            </a>
+            <a class="github icons" href="https://github.com/Valdu390" target="_blank">Projets</a>
+            <a class="gmail icons" href="mailto:besnard.valentin2005@gmail.com">Me contacter</a>
         </div>
         <div>
             <p>Page réalisé par Valentin BESNARD avec Vue JS dans le cadre d'un BUT
