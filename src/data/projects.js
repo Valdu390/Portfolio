@@ -24,7 +24,9 @@ export const projects = [
             }
             // [MANQUE] Lien vers le dépôt pour récupérer le quantile + documentation overleaf
         ],
-        images: [],
+        images: [
+            // [MANQUE] Images du code nettoyé + des graphiques
+        ],
         skills: [
             // Logiciels
             "visual-studio-code", "git",
@@ -82,7 +84,11 @@ export const projects = [
                 link: "https://drive.google.com/file/d/1cLvHODdwdkoWWva8NvcTmpnd8OOSbMUl/view?usp=sharing",
                 type: "pdf"
             },
-            // [MANQUE] Lien git vers le projet
+            {
+                title: "Code source",
+                link: "https://github.com/valbesnard/Simulnation",
+                type: "github"
+            }
         ],
         images: [
             {
@@ -140,7 +146,11 @@ export const projects = [
                 link: "https://drive.google.com/file/d/1Qi1hv0PVQg01ORu1sFs7SkXdyDJ6QMsf/view?usp=sharing",
                 type: "pdf"
             },
-            // [MANQUE] Git vers le projet
+            {
+                title: "Code source",
+                link: "https://github.com/valbesnard/AVC-company",
+                type: "github"
+            }
         ],
         images: [
             {
@@ -169,7 +179,11 @@ export const projects = [
         resume: "Logiciel en C de gestion d'une piste d'aéroport.",
         description: "Cette SAÉ avait pour objectif de développer une application en C permettant la gestion d’une piste d’aéroport, y compris la reprogrammation des vols en cas d’imprévus. Nous avons également dû concevoir plusieurs algorithmes de gestion et sélectionner celui offrant les meilleures performances.",
         links: [
-            // [MANQUE] Lien vers le git
+            {
+                title: "Code source",
+                link: "https://github.com/valbesnard/GESTION-AIR",
+                type: "github"
+            }
         ],
         images: [
             // [MANQUE] Images de l'application
@@ -194,7 +208,11 @@ export const projects = [
         resume: "Site web promouvant les mobilités douces au sein de Lyon 1.",
         description: "SOFT Move est un site web visant à encourager l’usage des mobilités douces pour se rendre à l’université Lyon 1. Cette SAÉ consistait à concevoir un sondage à destination des étudiants et du personnel afin d’identifier leurs attentes concernant un tel site, puis à développer ce dernier en HTML et CSS.",
         links: [
-            // [MANQUE] Lien vers le git
+            {
+                title: "Code source",
+                link: "https://github.com/valbesnard/soft-move",
+                type: "github"
+            }
         ],
         images: [
             // [MANQUE] Images de l'application
