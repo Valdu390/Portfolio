@@ -1,5 +1,6 @@
 # Personalisé 
 .editor*
+.vscode/
 
 # Logs
 logs
