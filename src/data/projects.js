@@ -25,7 +25,14 @@ export const projects = [
             // [MANQUE] Lien vers le dépôt pour récupérer le quantile + documentation overleaf
         ],
         images: [
-            // [MANQUE] Images du code nettoyé + des graphiques
+            {
+                title: "Image du dépôt initial registration of algebraic varieties",
+                link: "images/projects/conformal-prediction-registration-of-algebraic-varieties-1.png"
+            },
+            {
+                title: "Image du code après remise en forme",
+                link: "images/projects/conformal-prediction-registration-of-algebraic-varieties-2.png"
+            },
         ],
         skills: [
             // Logiciels
@@ -59,7 +66,14 @@ export const projects = [
             }
         ],
         images: [
-            // [MANQUE] image des graphiques réalisés
+            {
+                title: "Exemple de graphique réalisé",
+                link: "images/projects/annuaire-administrations-françaises-1.png"
+            },
+            {
+                title: "Données restantes après leur nettoyage",
+                link: "images/projects/annuaire-administrations-françaises-2.png"
+            },
         ],
         skills: [
             // Logiciels
