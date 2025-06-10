@@ -214,7 +214,18 @@ export const projects = [
             }
         ],
         images: [
-            // [MANQUE] Images de l'application
+            {
+                title: "Page d'acceuil",
+                link: "images/projects/logiciel-gestion-piste-aeroport-1.png"
+            },
+            {
+                title: "Affichage des vols dans les heures à venir",
+                link: "images/projects/logiciel-gestion-piste-aeroport-2.png"
+            },
+            {
+                title: "Recherche de vols",
+                link: "images/projects/logiciel-gestion-piste-aeroport-3.png"
+            },
         ],
         skills: [
             // Logiciels
@@ -243,7 +254,14 @@ export const projects = [
             }
         ],
         images: [
-            // [MANQUE] Images de l'application
+            {
+                title: "Index de la page web",
+                link: "images/projects/soft-move-1.png"
+            },
+            {
+                title: "Seconde page",
+                link: "images/projects/soft-move-2.png"
+            },
         ],
         skills: [
             // Logiciels
