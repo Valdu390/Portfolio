@@ -135,7 +135,14 @@ export const projects = [
         description: "Dans le cadre de cette SAÉ, nous devions exploiter les bases de données d’une entreprise spécialisée dans la vente d’équipements sportifs afin de produire des visuels facilitant la prise de décision. À l’aide de Power BI, nous avons extrait, nettoyé et mis en forme les données, puis créé des visualisations accompagnées d’une analyse de la situation de l’entreprise et de recommandations stratégiques.",
         links: [],
         images: [
-            // [MANQUE] Images des visuels réalisés
+            {
+                title: "Exemple de visuel réalisé",
+                link: "images/projects/realisation-visuels-bi-power-bi-1.png"
+            },
+            {
+                title: "Exemple de visuel réalisé",
+                link: "images/projects/realisation-visuels-bi-power-bi-2.png"
+            },
         ],
         skills: [
             // Logiciels
@@ -168,10 +175,17 @@ export const projects = [
         ],
         images: [
             {
+                title: "Page d'accueil",
+                link: "images/projects/avc-company-2.png"
+            },
+            {
+                title: "Page d'affichage des vols",
+                link: "images/projects/avc-company-3.png"
+            },
+            {
                 title: "Schéma représentant les tâches à réalisés",
                 link: "images/projects/avc-company-1.png"
             },
-            // [MANQUE] Images de l'application
         ],
         skills: [
             // Logiciels
