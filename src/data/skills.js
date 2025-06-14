@@ -38,8 +38,8 @@ export const skills = [
         ],
     },
     {
-        id: "sql-developper",
-        title: "Oracle SQLDevelopper",
+        id: "sql-developer",
+        title: "Oracle SQLDeveloper",
         category: "Logiciel",
         experiences: [
             "iut-informatique"

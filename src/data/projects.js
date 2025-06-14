@@ -291,7 +291,7 @@ export const projects = [
         ],
         skills: [
             // Logiciels
-            "power-amc", "sql-developper",
+            "power-amc", "sql-developer",
             // Langage
             "pl-sql",
             // Informatique

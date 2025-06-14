@@ -17,6 +17,10 @@ nav a {
     background-color: var(--nav-bg-color);
 }
 
+.project-card, .experience-card {
+    background-color: var(--card-bg-color);
+}
+
 /*
     Gestion des skills
 */

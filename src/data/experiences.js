@@ -30,7 +30,7 @@ export const experiences = [
         description: "Dispensée à Villeurbanne, cette formation m’a permis de développer de solides compétences dans le parcours Administration, Gestion et Exploitation des Données (AGED). Elle m’a formé à la manipulation, l’analyse et la valorisation de données, ainsi qu’à l’utilisation d’outils et de technologies tels que SQL, Power BI, Microsoft Azure ou encore les bases de la programmation statistique. Elle a également renforcé mes capacités en gestion de projet, en travail collaboratif et en communication professionnelle.",
         skills: [
             // Logiciels
-            "microsoft-azure", "power-bi", "sql-developper", "php-my-admin", "visual-studio-code", "power-amc", "git", "netbeans", "code-blocks",
+            "microsoft-azure", "power-bi", "sql-developer", "php-my-admin", "visual-studio-code", "power-amc", "git", "netbeans", "code-blocks",
             // Langages
             "pl-sql", "mysql", "python", "java", "c", "html", "css", "javascript", "php",
             // Informatique

@@ -5,7 +5,7 @@
 
 :root {
     /* Main colors for layout */
-    --main-bg-color: #DCD7D5;
+    --main-bg-color: #d6c7da;
     --main-color: black;
     --main-link-color: #4B3F6E;
 
@@ -29,7 +29,8 @@
     --soft-color-element: #BA96C1;
     --default-skills-color: #000000;
 
-    /* Color for list skills */
+    /* Color for cards */
+    --card-bg-color: #DCD7D5;
 }
 
 body {
