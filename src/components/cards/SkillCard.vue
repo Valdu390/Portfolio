@@ -51,15 +51,3 @@ const props = defineProps({
         </div>
     </div>
 </template>
-
-<style scoped>
-.skill-name {
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: 2px 2px;
-}
-
-.skill-name:hover {
-    box-shadow: 3px 3px 3px;
-}
-</style>

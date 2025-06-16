@@ -30,31 +30,3 @@ function selectCategory(skillCat) {
         </div>
     </section>
 </template>
-
-<style scoped>
-.skill-category-list {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.skill-category-list a {
-    border-radius: 20px;
-    width: 20vw;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    box-shadow: 2px 2px 2px;
-}
-
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px 20px;
-}
-
-.skill-category-list a:hover {
-    box-shadow: 5px 5px 5px;
-}
-</style>
