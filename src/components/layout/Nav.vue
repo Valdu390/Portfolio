@@ -24,9 +24,11 @@ a {
     margin: 5px;
     box-shadow: 0 2px 4px;
     border-radius: 20px;
+    transition: box-shadow 0.5s ease;
 }
 
 a:hover {
     box-shadow: 0 4px 4px;
+    transition: box-shadow 0.5s ease;
 }
 </style>
