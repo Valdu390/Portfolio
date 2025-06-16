@@ -4,8 +4,11 @@ import { aboutMe } from "@/data/aboutMe.js";
 
 <template>
     <section id="AboutMe">
-        <h2>À propos de moi</h2>
-        <p v-for="p in aboutMe.paragraphe" :id="p.id"> {{ p }}</p>
+        <img src="/profil.jpg" alt="Image de moi">
+        <section>
+            <h2>À propos de moi</h2>
+            <p v-for="p in aboutMe.paragraphe" :id="p.id"> {{ p }}</p>
+        </section>
     </section>
 </template>
 
@@ -14,5 +17,15 @@ p {
     text-indent: 2rem;
     padding-left: 1rem;
     padding-right: 5rem;
+}
+
+#AboutMe {
+    display: flex;
+    gap: 10px;
+}
+
+img {
+    border-radius: 25px;
+    height: 400px;
 }
 </style>
